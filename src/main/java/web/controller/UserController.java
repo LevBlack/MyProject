@@ -8,7 +8,7 @@ import web.service.UserService;
 import java.util.List;
 
 @Controller
-@RequestMapping()
+@RequestMapping("/")
 public class UserController {
     private final UserService userService;
 
